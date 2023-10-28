@@ -59,6 +59,6 @@ public class CalculatorTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testCalculatorException() {
-        Calculator.calculate(1, 0, '/');
+        Calculator.calculate(1, 0, '*');
     }
 }
