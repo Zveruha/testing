@@ -27,10 +27,10 @@ public class YandexMusicTest2 {
         WebDriverWait wait = new WebDriverWait(driver, duration);
         try {
             Start likesearch = new Start(driver).openPage().openPage2("https://passport.yandex.by/auth?origin=music_button-header&retpath=https%3A%2F%2Fmusic.yandex.by%2Fsettings%3Freqid%3D50359078817020437099224626634855331%26from-passport");
-            likesearch.enterEmail("Zverrruha@yandex.by")
+            likesearch.enterEmail("")
                     .clickSigButton();
             Thread.sleep(500);
-            likesearch.enterPassword("Veravera0")
+            likesearch.enterPassword("")
                     .clickSigButton();
             Thread.sleep(1000);
             likesearch.closeP().clickSearchBox()
